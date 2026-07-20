@@ -5,7 +5,7 @@ public:
             int t=a%b;
             a=b;
             b=t;
-        }
+        }  
         return a;
     }
     int findGCD(vector<int>& nums) {
